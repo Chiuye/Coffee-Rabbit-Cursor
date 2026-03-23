@@ -1,0 +1,72 @@
+;**************************************
+;*  Coffee-Rabbit Cursor Scheme                                         
+;*  Author: github@Chiuye                                                   
+;**************************************
+
+[Version]
+signature = "$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg,Wreg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%CurArrow%,%10%\%CUR_DIR%\%CurHelp%,%10%\%CUR_DIR%\%CurAppStarting%,%10%\%CUR_DIR%\%CurWait%,%10%\%CUR_DIR%\%CurCrosshair%,%10%\%CUR_DIR%\%CurIBeam%,%10%\%CUR_DIR%\%CurNWPen%,%10%\%CUR_DIR%\%CurNo%,%10%\%CUR_DIR%\%CurSizeNS%,%10%\%CUR_DIR%\%CurSizeWE%,%10%\%CUR_DIR%\%CurSizeNWSE%,%10%\%CUR_DIR%\%CurSizeNESW%,%10%\%CUR_DIR%\%CurSizeAll%,%10%\%CUR_DIR%\%CurUpArrow%,%10%\%CUR_DIR%\%CurHand%"
+
+[Wreg]
+HKCU,"Control Panel\Cursors",,0x00020000,"%SCHEME_NAME%"
+HKCU,"Control Panel\Cursors",AppStarting,0x00020000,"%10%\%CUR_DIR%\%CurAppStarting%"
+HKCU,"Control Panel\Cursors",Arrow,0x00020000,"%10%\%CUR_DIR%\%CurArrow%"
+HKCU,"Control Panel\Cursors",Crosshair,0x00020000,"%10%\%CUR_DIR%\%CurCrosshair%"
+HKCU,"Control Panel\Cursors",Hand,0x00020000,"%10%\%CUR_DIR%\%CurHand%"
+HKCU,"Control Panel\Cursors",Help,0x00020000,"%10%\%CUR_DIR%\%CurHelp%"
+HKCU,"Control Panel\Cursors",IBeam,0x00020000,"%10%\%CUR_DIR%\%CurIBeam%"
+HKCU,"Control Panel\Cursors",No,0x00020000,"%10%\%CUR_DIR%\%CurNo%"
+HKCU,"Control Panel\Cursors",NWPen,0x00020000,"%10%\%CUR_DIR%\%CurNWPen%"
+HKCU,"Control Panel\Cursors",SizeAll,0x00020000,"%10%\%CUR_DIR%\%CurSizeAll%"
+HKCU,"Control Panel\Cursors",SizeNESW,0x00020000,"%10%\%CUR_DIR%\%CurSizeNESW%"
+HKCU,"Control Panel\Cursors",SizeNS,0x00020000,"%10%\%CUR_DIR%\%CurSizeNS%"
+HKCU,"Control Panel\Cursors",SizeNWSE,0x00020000,"%10%\%CUR_DIR%\%CurSizeNWSE%"
+HKCU,"Control Panel\Cursors",SizeWE,0x00020000,"%10%\%CUR_DIR%\%CurSizeWE%"
+HKCU,"Control Panel\Cursors",UpArrow,0x00020000,"%10%\%CUR_DIR%\%CurUpArrow%"
+HKCU,"Control Panel\Cursors",Wait,0x00020000,"%10%\%CUR_DIR%\%CurWait%"
+
+[Scheme.Cur]
+"Rabbit-Static.cur"
+"Rabbit-Help.cur"
+"Rabbit-Waiting.cur"
+"Rabbit-Busy.ani"
+"Rabbit-Aim.cur"
+"Rabbit-Text.cur"
+"aero_pen.cur"
+"Rabbit-Ban.cur"
+"aero_ns.cur"
+"aero_we.cur"
+"aero_nwse.cur"
+"aero_nesw.cur"
+"aero_move.cur"
+"aero_up.cur"
+"Rabbit-Click.cur"
+
+[Strings]
+CUR_DIR         = "Cursors\Coffee-Rabbit"
+SCHEME_NAME     = "Coffee-Rabbit"
+
+CurArrow        = "Rabbit-Static.cur"
+CurHelp         = "Rabbit-Help.cur"
+CurAppStarting  = "Rabbit-Waiting.cur"
+CurWait         = "Rabbit-Busy.ani"
+CurCrosshair    = "Rabbit-Aim.cur"
+CurIBeam        = "Rabbit-Text.cur"
+CurNWPen        = "aero_pen.cur"
+CurNo           = "Rabbit-Ban.cur"
+CurSizeNS       = "aero_ns.cur"
+CurSizeWE       = "aero_we.cur"
+CurSizeNWSE     = "aero_nwse.cur"
+CurSizeNESW     = "aero_nesw.cur"
+CurSizeAll      = "aero_move.cur"
+CurUpArrow      = "aero_up.cur"
+Curhand         = "Rabbit-Click.cur"
