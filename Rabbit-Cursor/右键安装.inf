@@ -1,6 +1,6 @@
 ;**************************************
 ;*  Coffee-Rabbit Cursor Scheme                                         
-;*  Author: github@Chiuye                                                   
+;*  Author: GitHub@Chiuye                                                   
 ;**************************************
 
 [Version]
@@ -33,6 +33,7 @@ HKCU,"Control Panel\Cursors",SizeNWSE,0x00020000,"%10%\%CUR_DIR%\%CurSizeNWSE%"
 HKCU,"Control Panel\Cursors",SizeWE,0x00020000,"%10%\%CUR_DIR%\%CurSizeWE%"
 HKCU,"Control Panel\Cursors",UpArrow,0x00020000,"%10%\%CUR_DIR%\%CurUpArrow%"
 HKCU,"Control Panel\Cursors",Wait,0x00020000,"%10%\%CUR_DIR%\%CurWait%"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl @0,1"
 
 [Scheme.Cur]
 "Rabbit-Static.cur"
