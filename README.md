@@ -4,9 +4,9 @@
 # 使用方式
 点击Download Zip下载鼠标指针文件压缩包
 
-<img width="480" height="405" alt="image" src="https://github.com/user-attachments/assets/30ccb457-846d-4a8d-a8ac-7d32a2391af5" />
+<img width="1118" height="498" alt="image" src="https://github.com/user-attachments/assets/bcff3575-08a7-4acc-9d2f-021a710ac8c8" />
 
-解压后进入Rabbit-Cursor文件夹，右键单击.inf文件，以安装鼠标指针文件
+解压后进入Rabbit-Cursor文件夹，右键单击.inf文件并选择安装
 
 安装完成后会弹出一个鼠标样式设置框，单击确定
 
